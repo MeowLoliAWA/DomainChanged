@@ -1,0 +1,30 @@
+@font-face {
+    font-family: loli;
+    src: url('./loli.ttc');
+}
+
+body {
+    text-align: center;
+    padding: 200px;
+    background: url('https://www.freeimg.cn/i/2024/05/05/66370e91159cc.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    font: 20px Helvetica, sans-serif;
+}
+
+.text {
+    font-family: loli;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px) saturate(120%);
+    background-size: 100%;
+    padding: 10px 50px 10px 50px;
+    border-radius: 30px;
+    max-width: 520px;
+}
+a{
+    color: black;
+}
+a:hover {
+    color: pink;
+    text-decoration: none;
+}

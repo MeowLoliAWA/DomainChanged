@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This Domain Has Changed</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="text">
+        <h2>This Domain Has Changed</h2>
+        <p>此域名已更改</p>
+        <p>网站域名已更换，敬请谅解</p>
+        <p><strong>请访问 <a href="https://blog.aloli.icu">blog.aloli.icu</a> 来到我的博客</strong></p>
+        <p><span id="time">60</span> 秒后跳转</p>
+        <script type="text/javascript">
+            var count = 60;
+
+            window.setInterval("timed()", 1000);
+
+            function timed() {
+                if (count > 0) {
+                    document.getElementById("time").innerText = --count;
+                } else {
+                    location.href = "https://blog.aloli.icu";
+                }
+            }
+            
+
+        </script>
+        <hr style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" width="80%" color=pink size=3>
+        <h2 style="color:pink;">Heart ~❤️ ——来自工蜂</h2>
+</body>
+
+</html>
